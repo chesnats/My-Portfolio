@@ -373,6 +373,27 @@ h1, h2, h3, h4, h5,
 	  }
 	}
 }
+@media (max-width: 768px) {
+  .owl-carousel,
+  .owl-stage,
+  .owl-stage-outer,
+  .slider-item,
+  .home-slider {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .js-fullheight {
+    height: auto !important;
+  }
+
+  html, body {
+    height: auto !important;
+    overflow-x: hidden;
+    overflow-y: auto !important;
+  }
+}
 
 //OWL CAROUSEL
 .owl-carousel {
