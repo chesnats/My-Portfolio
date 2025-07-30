@@ -48,33 +48,35 @@
 	    </div>
 	  </nav>
 		
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	      <div class="slider-item ">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex slider-text align-items-end justify-content-end" >
-							<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
-															
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Chester Manolo</span></h1>
-			           <h2 class="mb-4 typewriter">
-											A <span id="job-title"></span>
-										</h2>
-			            <p>
-										<!-- <a href="#" class="btn btn-primary py-3 px-4">Hire me</a>  -->
-										<a href="https://guitar-tab-tracker-4e352.web.app/login" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
-									</p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-	    </div>
-    </section>
+<section id="home-section" class="hero" style="padding-top: 100px;">
+  <div class="container">
+    <div class="row d-md-flex slider-text align-items-center">
+      
+      <!-- TEXT SECTION - LEFT on desktop -->
+      <div class="col-md-6 d-flex align-items-center  order-1 order-md-1">
+        <!-- Background image only visible on mobile -->
+        <div class="mobile-bg d-md-none" style="background-image:url('images/bg_2.png');"></div>
+
+        <div class="text responsive-text">
+          <span class="subheading">Hello!</span>
+          <h1 class="mb-4 mt-3">I'm <span style="font-weight: bold;">Chester Manolo</span></h1>
+          <h2 class="mb-4 typewriter wide-type">
+            A <span id="job-title"></span>
+          </h2>
+          <p>
+            <a href="https://guitar-tab-tracker-4e352.web.app/login" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- IMAGE SECTION - RIGHT on desktop -->
+      <div class="col-md-6 img d-none d-md-block order-2" style="background-image:url('images/bg_2.png'); height: 700px; background-size: cover; background-position: center;">
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
@@ -88,8 +90,8 @@
     			</div>
     			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
     				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		          	<h1 class="big">About</h1>
+		          <div class="col-md-12 heading-section text-center ftco-animate">
+		          	<h1 class="big big-2">About</h1>
 		            <h2 class="mb-4">About Me</h2>
 		            <p>A joyful stream called Beautiful Alegria dances through their land, cascading in countless gentle falls, bringing with it the life-giving essence of nature.</p>
 		            <ul class="about-info mt-4 px-md-0 px-2">

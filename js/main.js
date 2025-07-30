@@ -20,18 +20,18 @@
 var fullHeight = function() {
   function setHeight() {
     if ($(window).width() > 768) {
-      $('.js-fullheight').css('height', $(window).height());
+      $('.js-fullheight').css('min-height', $(window).height());
     } else {
-      $('.js-fullheight').css('height', 'auto');
+      $('.js-fullheight').css('min-height', '');
     }
   }
 
-  setHeight(); // Set height on page load
-
+  setHeight();
   $(window).resize(function() {
-    setHeight(); // Update height on resize
+    setHeight();
   });
 };
+
 
 $(document).ready(function() {
   fullHeight();

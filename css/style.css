@@ -59,18 +59,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     overflow: visible !important;
   }
 
-  .js-fullheight {
-    height: auto !important;
-  }
+
+
+}
 
   html, body {
     height: auto !important;
     overflow-x: hidden;
     overflow-y: auto !important;
   }
-}
-
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -89,6 +86,13 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
+
+  .js-fullheight {
+    height: auto !important;
+  }
+.slider-item, .home-slider, .hero {
+  overflow: visible;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -5309,6 +5313,7 @@ a.close.disabled {
   .carousel-indicators .active {
     opacity: 1; }
 
+
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -8474,6 +8479,7 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
+    overflow-y: auto;
     height: 750px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
@@ -8672,6 +8678,41 @@ h1, h2, h3, h4, h5,
         background: rgba(255, 255, 255, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
+@media (max-width: 767.98px) {
+    .mobile-bg {
+      position: absolute;
+      top: -10;
+      left: 0;
+      height: 140%;
+      width: 100%;
+      z-index: 0;
+      opacity: 0.4;
+      background-size: cover;
+      background-position: center;
+     
+    }
+ .responsive-text {
+          text-align: center;
+        }
+    .text {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero .row {
+      position: relative;
+    }
+  }
+  .subheading {
+    color: #f39c12;
+  }
+.wide-type {
+  display: inline-block; /* or block, depending on layout */
+  min-width: 350px; /* increase as needed */
+}
+  h1 span {
+    color:  #f39c12;
+  }
 
 .hero-wrap {
   width: 100%;
