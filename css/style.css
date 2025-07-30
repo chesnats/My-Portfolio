@@ -8245,14 +8245,16 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
-      padding-bottom: 20px;
-      margin-right: 0; } }
+         text-align: right;
+    padding-bottom: 20px;
+    margin-right: 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     padding-top: .7rem;
-    padding-bottom: .7rem;
+      padding-right: 1rem;
+    padding-bottom: 1rem;
     padding-left: 20px;
-    padding-right: 20px;
+   
     color: #fff;
     font-weight: 400;
     opacity: 1 !important; }
